@@ -23,6 +23,7 @@ class Configuration implements ConfigurationInterface
         $rootNode
             ->children()
                 ->scalarNode('api_key')->isRequired()->end()
+                ->scalarNode('subaccount')->defaultNull()->end()
             ->end()
         ;
         
