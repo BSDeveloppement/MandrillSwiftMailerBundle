@@ -15,18 +15,10 @@
             "email": "james.willans@accordgroup.co.uk"
         }
     ],
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/BSDeveloppement/MandrillSwiftMailer",
-            "svn-cache-credentials": false
-        }
-    ],
     "require": {
         "php": ">=5.4",
         "symfony/framework-bundle": ">=2.3",
         "symfony/swiftmailer-bundle": ">=2.3",
-        "accord/mandrill-swiftmailer": "dev-subaccount",
         "swiftmailer/swiftmailer": "~5.3"
     },
     "require-dev": {
